@@ -1,0 +1,13 @@
+{
+  "name": "formscope-browser-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "prettier": "^3.6.0"
+  }
+}
