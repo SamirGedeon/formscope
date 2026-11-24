@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "5007:5007"
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    volumes:
+      - formscope-data:/app/var
+volumes:
+  formscope-data:
